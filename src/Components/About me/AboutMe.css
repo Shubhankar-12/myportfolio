@@ -8,6 +8,7 @@
   color: white;
   padding: 1rem 1rem 0 1rem;
   height: 25rem;
+  margin-top: 3rem;
 }
 .aboutSec_section {
   padding: 1rem 1rem 0 1rem;
@@ -94,5 +95,15 @@
   .aboutSec_Sub2 {
     position: relative;
     left: 10px;
+  }
+}
+@media screen and (max-width: 837px) {
+  .aboutSec {
+    margin-top: 4.8rem;
+  }
+}
+@media screen and (max-width: 662px) {
+  .aboutSec {
+    margin-top: 3.2rem;
   }
 }

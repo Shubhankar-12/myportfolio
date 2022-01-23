@@ -8,6 +8,7 @@
   color: white;
   justify-content: space-evenly;
   align-items: baseline;
+  position: fixed;
 }
 .Navbar-elements {
   width: 70%;
