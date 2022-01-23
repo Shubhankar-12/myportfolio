@@ -45,8 +45,8 @@ function Introduction() {
           Just a student who trying to learn New things.
         </h3>
         <p className="intro_main">
-          I am 2nd year undergraduate student working on diffent skills to stand
-          out. I learn’t different languages like C, C++, Java. Curently
+          I am 2nd year undergraduate student working on different skills to stand
+          out. I learn’t different languages like C, C++, Java. Currently
           studying DSA and also working on my Web development skills learning
           ReactJS, NodeJS, ElectronJs. I also started doing Competetive
           Programing in CodeChef and Hacerrank.I had participated in many

@@ -15,24 +15,29 @@ function ContactUs() {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_z7e9j4l",
-        "template_x02jvja",
-        form.current,
-        "user_glQD2WAdudlTmSeVFqah7"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    setName("");
-    setmail("");
-    setmessage("");
+    if (Name === '' || mail === '' || message === '') {
+      alert("please enter proper details!");
+    } else {
+      emailjs
+        .sendForm(
+          "service_z7e9j4l",
+          "template_x02jvja",
+          form.current,
+          "user_glQD2WAdudlTmSeVFqah7"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+      alert("Message Sent");
+      setName("");
+      setmail("");
+      setmessage("");
+    }
   };
 
   return (
