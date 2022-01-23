@@ -16,7 +16,9 @@ function AboutMe() {
             Trying to Learn new skills like Full-Stack Web Dev, Android Dev,
             <br /> DSA etc.
           </p>
-          <h3 className="Sub1_ele letsChat">LET'S CHAT !</h3>
+          <a className="Sub1_ele letsChat" href="mailto:shubhankar719.com ">
+            LET'S CHAT !
+          </a>
         </div>
 
         <div className="aboutSec_Sub2">
