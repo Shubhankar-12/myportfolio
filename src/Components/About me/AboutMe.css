@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto:wght@100&display=swap");
+
+.aboutSec {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #2d2e32;
+  color: white;
+  padding: 1rem 1rem 0 1rem;
+  height: 25rem;
+}
+.aboutSec_section {
+  padding: 1rem 1rem 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Sub1_ele {
+  margin-left: 12rem;
+}
+.noValbtn {
+  background-color: #64f4ac;
+  width: 8.5rem;
+  height: 1.5rem;
+  border: 0;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: "audiowide";
+}
+.aboutSec_Sub1 h1 {
+  font-family: "audiowide";
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.aboutSec_Sub1 p {
+  font-family: "Roboto";
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.letsChat {
+  font-family: "audiowide";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  color: #64f4ac;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+.aboutSec_Sub2 {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Roboto";
+  font-size: 1rem;
+}
+.Sub2_num {
+  font-family: "Roboto";
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+}
+.myImg {
+  width: 26.25rem;
+  align-self: center;
+}
+@media screen and (max-width: 1100px) {
+  .Sub1_ele {
+    margin-left: 2rem;
+  }
+}
+@media screen and (max-width: 960px) {
+  .ImgSec {
+    visibility: hidden;
+  }
+  .aboutSec {
+    display: block;
+    height: 20rem;
+    align-items: center;
+    padding: 0.2rem;
+  }
+  .Sub1_ele {
+    margin: 0;
+  }
+  .aboutSec_Sub2 {
+    position: relative;
+    left: 10px;
+  }
+}

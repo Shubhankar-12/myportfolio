@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto:wght@100&display=swap");
+.skills {
+  background-color: #25262a;
+  padding: 1rem 1rem 2rem 1rem;
+}
+.skills_heading {
+  text-align: center;
+  font-family: Audiowide;
+  font-weight: 400;
+  color: #64f4ac;
+  font-size: 2.5rem;
+  text-decoration: underline;
+}
+.skills_parts {
+  padding: 0 auto;
+}
+.skills_parts h3 {
+  font-family: Audiowide;
+  color: white;
+  font-weight: 400;
+}
+.bar_container {
+  width: 90%;
+  height: 1.2rem;
+  background-color: white;
+  padding: 0;
+  border-radius: 1.5rem;
+}
+.bar {
+  height: 100%;
+  background-color: #64f4ac;
+  border-radius: 1.5rem;
+  box-shadow: 10px 2px 3px rgba(0, 0, 0, 0.25);
+}
+#front_end_bar {
+  width: 75%;
+}
+#back_end_bar {
+  width: 50%;
+}
+#Android_dev {
+  width: 30%;
+}
+#DSA_bar {
+  width: 90%;
+}

@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto:wght@100&display=swap");
+.ContactUs {
+  background-color: #2d2e32;
+  padding: 2rem;
+  color: white;
+}
+.form_container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+h1 {
+  text-align: center;
+  font-family: Audiowide;
+  color: #64f4ac;
+  font-weight: 400;
+  text-decoration: underline;
+  font-size: 2.5rem;
+}
+label {
+  font-family: Audiowide;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+input {
+  width: 70%;
+  height: 3rem;
+  border-radius: 1rem;
+  border: 0;
+  font-size: 1rem;
+  text-indent: 10px;
+}
+#sender_message {
+  border-radius: 1rem;
+  width: 70%;
+  height: 10rem;
+  resize: none;
+  border: 0;
+  font-size: 1rem;
+  text-indent: 10px;
+}
+.btn_div {
+  display: flex;
+  justify-content: center;
+}
+.Submit {
+  width: 10rem;
+  height: 3rem;
+  background-color: #64f4ac;
+  border: 0;
+  border-radius: 8px;
+  color: white;
+  font-family: Audiowide;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.clock {
+  width: 80%;
+  border-radius: 50%;
+  margin-top: 2rem;
+}
+@media screen and (max-width: 960px) {
+  .clock_div {
+    display: none;
+  }
+  .Contact_form {
+    width: 80vw;
+  }
+  #sender_message,
+  input {
+    width: 100%;
+  }
+}

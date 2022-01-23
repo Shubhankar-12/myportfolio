@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto:wght@100&display=swap");
+
+.Navbar {
+  width: 100%;
+  background-color: #2d2e32;
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+.Navbar-elements {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.home_btn {
+  font-family: "audiowide";
+  font-style: normal;
+  font-size: 1.2rem;
+  color: #64f4ac;
+}
+.HamButton {
+  visibility: hidden;
+}
+.home_btn_dark {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+.Navbar-elements__ul {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  cursor: pointer;
+  list-style: none;
+}
+.Navbar-elements__ul:hover {
+  text-decoration: underline;
+  color: #64f4ac;
+}
+@media screen and (max-width: 660px) {
+  .Navbar {
+    flex-direction: column;
+  }
+  .Navbar-elements {
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    height: 0;
+    overflow: hidden;
+    cursor: none;
+    transition: all 0.3s linear;
+  }
+  .show_elem {
+    height: 9.6rem;
+  }
+  .Navbar-elements__ul {
+    font-weight: 400;
+    margin-bottom: 1rem;
+  }
+  .home_btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem 0.3rem;
+    align-items: center;
+  }
+  .HamButton {
+    visibility: visible;
+  }
+  .btn-drop {
+    width: 1.8rem;
+    border: 1px solid grey;
+    filter: invert(100%);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}

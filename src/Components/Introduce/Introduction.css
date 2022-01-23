@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto:wght@100&display=swap");
+.intro_sec {
+  background-color: #25262a;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+  flex-wrap: wrap;
+}
+.intro_skills {
+  width: 80%;
+  background-color: #2d2e32;
+  height: 10rem;
+  padding: 0 1rem;
+  margin: 1rem 0;
+}
+.intro_skills:hover {
+  filter: drop-shadow(-3px 8px 10px rgba(0, 0, 0, 0.25));
+}
+.intro_skills:hover .intro_skills_top {
+  color: #64f4ac;
+}
+.intro_skills:hover .intro_skills_top img {
+  filter: grayscale(0);
+}
+.intro_skills_top {
+  color: white;
+  text-decoration: underline;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  font-weight: 400;
+  margin-bottom: 2.2rem;
+  font-family: audiowide;
+}
+.intro_Subsec {
+  width: 50%;
+}
+.intro_skills_top img {
+  filter: grayscale(1);
+}
+.intro_skills p {
+  font-family: Roboto;
+}
+.intro_skills a {
+  font-family: Roboto;
+  color: whitesmoke;
+  font-weight: 600;
+}
+.intro_heading {
+  font-family: Audiowide;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+  color: #64f4ac;
+  margin-bottom: 3rem;
+}
+.intro_subheading {
+  font-family: Roboto;
+  font-size: 1.2rem;
+  font-style: 300;
+  font-weight: 700;
+}
+.intro_main {
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  text-align: justify;
+}
+@media screen and (max-width: 1100px) {
+  .intro_sec {
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+  }
+  .intro_Subsec {
+    width: 80%;
+    padding: auto;
+  }
+  .intro_skills {
+    width: 75%;
+    margin: 1rem auto;
+  }
+  .intro_heading {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 700px) {
+  .intro_sec {
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+  }
+  .intro_Subsec {
+    width: 95%;
+    padding: auto;
+  }
+  .intro_skills {
+    width: 85%;
+    margin: 1rem auto;
+  }
+  .intro_heading {
+    text-align: center;
+  }
+}

@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto:wght@100&display=swap");
+.projects {
+  background-color: #25262a;
+  color: white;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+.projects_parts {
+  padding: 0 auto;
+}
+.my_work {
+  width: 22rem;
+  height: 6rem;
+  margin-bottom: 8rem;
+}
+.my_work h1 {
+  text-align: center;
+  font-family: Audiowide;
+  font-size: 2.4rem;
+  font-weight: 400;
+  text-decoration: underline;
+  margin-bottom: 0.4rem;
+}
+.my_work p {
+  font-family: Roboto;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.project_card {
+  width: 29rem;
+  height: 31rem;
+  background: #2c2f36;
+  border-radius: 10px;
+  margin: 4rem 0;
+}
+.project_card:hover {
+  box-shadow: 4px 6px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card_top {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0.5rem;
+}
+.card_name {
+  font-family: Audiowide;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+.card_tags {
+  width: 40%;
+  display: flex;
+  padding: 2px 8px;
+}
+.tag {
+  width: fit-content;
+  height: 1.4rem;
+  background: #c4c4c4;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  box-shadow: -2px 2px 4px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  color: black;
+  padding: 2px;
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.proj_img {
+  display: grid;
+  justify-items: center;
+  height: 90%;
+}
+.proj_img img {
+  width: 80%;
+  transform: skew(-5deg);
+}
+
+.project_disc {
+  width: 35rem;
+  height: 10rem;
+  margin-top: 2rem;
+}
+.project_disc h1 {
+  color: #64f4ac;
+  font-family: audiowide;
+  font-weight: 400;
+  font-size: 2.4rem;
+  text-align: center;
+}
+.project_disc li {
+  font-family: roboto;
+  list-style: disc;
+}
+@media screen and (max-width: 1125px) {
+  .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+  .project_disc {
+    display: none;
+  }
+  .project_card {
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 660px) {
+  .project_card {
+    width: 20rem;
+    height: 22rem;
+  }
+  .card_top {
+    padding: 1rem 0.2rem;
+  }
+  .proj_img {
+    margin: auto;
+    width: 90%;
+  }
+  .tag {
+    font-size: 0.5rem;
+    height: 1rem;
+  }
+}
