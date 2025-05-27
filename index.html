@@ -379,18 +379,19 @@
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
+      window.location.href = "https://portfolio-shubh025.vercel.app/";
       AOS.init({
         offset: 150,
         duration: 800,
       });
       if (window.innerWidth <= 768) {
-        document.querySelector('.interest').removeAttribute('data-aos-anchor');
+        document.querySelector(".interest").removeAttribute("data-aos-anchor");
         document
-          .querySelector('.healerText')
-          .setAttribute('data-aos-anchor', '.healerImg');
+          .querySelector(".healerText")
+          .setAttribute("data-aos-anchor", ".healerImg");
         document
-          .querySelector('.colorGuessText')
-          .setAttribute('data-aos-anchor', '.colorGuessImg');
+          .querySelector(".colorGuessText")
+          .setAttribute("data-aos-anchor", ".colorGuessImg");
       }
     </script>
   </body>
